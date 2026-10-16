@@ -1,0 +1,8 @@
+{
+  "name": "gp-release",
+  "version": "0.1.0",
+  "description": "Assemble a release branch from ticket keys: find each ticket's commits, detect fixes already on the base branch or superseded, cherry-pick one commit per ticket linearly, and write the release map and checklist.",
+  "author": { "name": "khoa-astec" },
+  "repository": "https://github.com/khoa-astec/gp-release",
+  "keywords": ["release", "git", "cherry-pick", "backlog"]
+}

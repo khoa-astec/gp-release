@@ -1,0 +1,16 @@
+{
+  "name": "gp-release",
+  "owner": { "name": "khoa-astec" },
+  "metadata": {
+    "description": "Release branch assembly skill for Claude Code",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "gp-release",
+      "source": "./",
+      "description": "Assemble a release branch from ticket keys, one commit per ticket, with duplicate detection",
+      "version": "0.1.0"
+    }
+  ]
+}
